@@ -18,7 +18,7 @@ Today we are going to look specifically at Next's data fetching.
 
 ---
 
-## Data Fetching in Next
+## An Introduction to Data Fetching in Next
 
 <div class='align-left'>
 getServerSideProps()
@@ -42,7 +42,7 @@ Client Side
 
 ## getServerSideProps()
 
-This does what the same sounds like. It will fetch data on the server and it does so at request time and is rendered on the server. If you export a function called getServerSideProps (Server-Side Rendering) from a page, Next.js will render this page on each request using the data returned by getServerSideProps.
+This does what the same sounds like. It will fetch data on the server and it does so at request time and is rendered on the server. If you export a function called getServerSideProps (Server-Side Rendering) from a page Next.js will render this page on each request using the data returned by getServerSideProps.
 
 This only runs on the server and will never run in the browser.
 
@@ -84,7 +84,7 @@ This is a part of Static Site Generation, SSG (all data needs to be available at
 
 ### How to use getStaticPaths()
 
-It must be used with getStaticProps(). Again, it needs to be written with export async function getStaticPaths(). This needs to return an object that includes paths. 
+It must be used with getStaticProps(). Again, it needs to be written with export async function getStaticPaths(). This needs to return an object that includes paths.
 
 ---
 
