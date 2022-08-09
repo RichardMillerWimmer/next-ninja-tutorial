@@ -54,7 +54,7 @@ This can only be used at page level components. You will need to use ‘export a
 
 ---
 
-# NEED IMAGE Example Here
+![getServerSideProps](getServerSideProps.jpg)
 
 ---
 
@@ -72,7 +72,7 @@ This is set up much like the previous method we discussed. You will need to ‘e
 
 ---
 
-# NEED IMAGE Example Here
+![getStaticProps](getStaticProps.jpg)
 
 ---
 
@@ -88,7 +88,7 @@ It must be used with getStaticProps(). Again, it needs to be written with export
 
 ---
 
-# NEED IMAGE Example Here
+![getStaticPaths](getStaticPaths.jpg)
 
 ---
 
