@@ -1,8 +1,8 @@
 ---
-theme: white
+theme: black
 ---
 
-# Next
+![NextJS](NextLogo.png)
 
 ---
 
