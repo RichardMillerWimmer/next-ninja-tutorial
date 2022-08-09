@@ -4,7 +4,13 @@ import Link from 'next/link'
 
 export const getServerSideProps = async () => {
     const res = await fetch('https://jsonplaceholder.typicode.com/users')
-    const data = await res.json()
+    let data = await res.json()
+    // data = null
+    if(!data) {
+        return {
+            notFound: true
+        }
+    }
     return {
         props: {ninjas: data}
     }
