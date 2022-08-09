@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../../styles/Ninjas.module.css'
 import Link from 'next/link'
 
-export const getStaticProps = async () => {
+export const getServerSideProps = async () => {
     const res = await fetch('https://jsonplaceholder.typicode.com/users')
     const data = await res.json()
     return {
