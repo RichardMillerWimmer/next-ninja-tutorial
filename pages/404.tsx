@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
@@ -8,9 +8,9 @@ const NotFound = () => {
 
     useEffect(() => {
         setTimeout(() => {
-            // router.go(-1)
             router.push('/')
         }, 3000)
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
     return (
